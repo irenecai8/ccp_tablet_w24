@@ -140,17 +140,12 @@ a[href= '#main']:focus {
     left: 2000px;
     }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
 
-.transition-header {
+.img-trans {
     transition: transform 1s ease;
 }
 
-.transition-header:hover {
+.img-trans:hover {
     transform: translateX(300px);
 }
 
@@ -194,11 +189,15 @@ a[href= '#main']:focus {
     }
     
     li {
-        height: 80px;
+        height: 40px;
+        line-height:10px;
         color: pink;
-        
     }
     
+    ol {
+        line-height: 10px;
+    }
+
     nav a {
         background-color: rgb(255, 230, 253);
         padding: 15px;
@@ -208,10 +207,5 @@ a[href= '#main']:focus {
         text-decoration: none; 
     }
     
-    .grid-container {
-        display: grid;
-        grid-template-columns: .5fr .5fr;
-        grid-template-rows: .51fr .5fr;
-    }
 
 }
